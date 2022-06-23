@@ -1,0 +1,16 @@
+{
+  "name": "blockchain-oracles-2022",
+  "private": true,
+  "scripts": {
+    "build": "slidev build build --base=/<repo-name>/",
+    "dev": "slidev --open",
+    "export": "slidev export"
+  },
+  "dependencies": {
+    "@slidev/cli": "^0.33.0",
+    "slidev-theme-academic": "*"
+  },
+  "devDependencies": {
+    "playwright-chromium": "^1.22.2"
+  }
+}
